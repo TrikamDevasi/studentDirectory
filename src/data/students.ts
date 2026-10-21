@@ -1,0 +1,48 @@
+import { Student } from "../types/student";
+
+export const students: Student[] = [
+  {
+    id: "1042",
+    name: "Aarav Mehta",
+    rollNumber: "STU-1042",
+    department: "Computer Science",
+    year: 3,
+    email: "aarav.mehta@campus.edu",
+    phone: "9876543210",
+    avatar: "AM",
+    cgpa: 8.7,
+  },
+  {
+    id: "1043",
+    name: "Priya Sharma",
+    rollNumber: "STU-1043",
+    department: "Information Technology",
+    year: 2,
+    email: "priya.sharma@campus.edu",
+    phone: "9876543211",
+    avatar: "PS",
+    cgpa: 9.1,
+  },
+  {
+    id: "1044",
+    name: "Rahul Patel",
+    rollNumber: "STU-1044",
+    department: "Computer Science",
+    year: 1,
+    email: "rahul.patel@campus.edu",
+    phone: "9876543212",
+    avatar: "RP",
+    cgpa: 8.2,
+  },
+  {
+    id: "1045",
+    name: "Neha Shah",
+    rollNumber: "STU-1045",
+    department: "Electronics",
+    year: 2,
+    email: "neha.shah@campus.edu",
+    phone: "9876543213",
+    avatar: "NS",
+    cgpa: 8.9,
+  },
+];

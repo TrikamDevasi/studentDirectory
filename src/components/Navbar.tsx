@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="nav-links">
         <Link href="/students">Students</Link>
 
-        <Link href="/students/department/cse">
+        <Link href="/departments">
           Departments
         </Link>
 
